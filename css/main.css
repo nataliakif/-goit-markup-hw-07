@@ -352,7 +352,7 @@ a {
 }
 
 /* Навигация сайта */
-.page-header__list {
+.main-nav__list {
   display: flex;
   font-weight: 500;
   line-height: 1.14;
@@ -390,6 +390,7 @@ a {
 }
 
 .header-contacts {
+  display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: auto;
@@ -430,10 +431,10 @@ a {
   height: 16px;
 }
 
-.page-header__content,
-.about__list,
-.features__list,
-.team__list,
+.page-header__container,
+.about,
+.features,
+.team,
 .projects,
 .portfolio-nav {
   display: flex;
@@ -500,7 +501,7 @@ a {
 }
 
 /* Секция About */
-.about {
+.section__no-padding {
   padding-top: 0;
 }
 
@@ -531,7 +532,7 @@ a {
 }
 
 /* Секция наша команда*/
-.team {
+.section__team {
   background-color: #f5f4fa;
 }
 
@@ -566,7 +567,7 @@ a {
   padding-bottom: 30px;
 }
 
-.clients__list {
+.clients {
   display: flex;
   align-items: center;
 }
@@ -768,7 +769,7 @@ a {
   transform: translateY(0%);
 }
 
-.projects__border {
+.projects__box {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;

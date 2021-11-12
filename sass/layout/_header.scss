@@ -9,7 +9,7 @@
 }
 /* Навигация сайта */
 
-.page-header__list {
+.main-nav__list {
   display: flex;
   font-weight: 500;
   line-height: 1.14;
@@ -44,6 +44,7 @@
   margin-left: 50px;
 }
 .header-contacts {
+  display: inline-flex;
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: auto;
@@ -81,10 +82,10 @@
   }
 }
 
-.page-header__content,
-.about__list,
-.features__list,
-.team__list,
+.page-header__container,
+.about,
+.features,
+.team,
 .projects,
 .portfolio-nav {
   display: flex;
